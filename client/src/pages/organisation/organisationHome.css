@@ -1,0 +1,19 @@
+.organisationHomeContainer{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+.organisationHomeWrapper button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}

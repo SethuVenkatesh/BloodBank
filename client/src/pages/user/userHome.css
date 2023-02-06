@@ -1,0 +1,24 @@
+.userHome{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    max-width: 300px;
+    width: 45vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons button{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 600;
+}

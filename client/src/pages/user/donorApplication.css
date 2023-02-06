@@ -1,0 +1,10 @@
+.donorApplicationWrapper{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.donorApplicationContainer{
+    min-height: 100vh;
+    position: relative;
+}

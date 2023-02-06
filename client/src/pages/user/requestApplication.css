@@ -1,0 +1,37 @@
+.requestApplicationContainer{
+    
+    min-height: 100vh;
+    background-color: lightgray;
+}
+.requestApplicationWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.requestApplicationWrapper .requestInfoCard{
+    padding:20px ;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.requestApplicationWrapper .requestInfoDetail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+.requestApplicationWrapper .requestInfoDetail h5{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: cadetblue;
+}
+.requestApplicationWrapper .requestInfoDetail p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: dimgray;
+}

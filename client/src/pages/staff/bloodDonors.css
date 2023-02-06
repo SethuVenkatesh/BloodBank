@@ -1,0 +1,60 @@
+.bloodDonorsContainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: lightgray;
+}
+.bloodDonorsWrapper{
+    padding: 10px;
+    width: 85vw;
+    margin-top: 10vh;
+    display: flex;flex-direction: column;
+    gap: 20px;
+}
+.bloodDonorsWrapper h3{
+    margin: auto;
+    font-size: 26px;
+    color: red;
+    text-shadow: 2px 2px gray;
+
+}
+.bloodDonorsWrapper .donorCountContainer{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 5px 5px 10px 1px gray;
+}
+.donorCountContainer .left{
+    flex:1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.donorCountContainer .left div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.donorCountContainer .right{
+    flex:1;
+}
+.donorTotalContainer{
+    height: 65vh;
+    overflow-y: auto;
+
+}
+.donorTotalContainer h5{
+    font-size: 20px;
+    color: blue;
+    text-align: center
+}
+.donorTotalContainer::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.donorTotalContainer::-webkit-scrollbar-thumb {
+    outline: 1px solid slategrey;
+}
+.donorTotalContainer::-webkit-scrollbar {
+    width: 1px;
+}

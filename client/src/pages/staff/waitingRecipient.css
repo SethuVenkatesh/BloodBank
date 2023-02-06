@@ -1,0 +1,15 @@
+.waitingContainer{
+    min-height: 100vh;
+    background-color: lightgray;
+}
+.waitingWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.waitingWrapper .recipientCard{
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 3px gray;
+}

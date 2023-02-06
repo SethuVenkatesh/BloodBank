@@ -1,0 +1,53 @@
+.expiredBloodContainer{
+    min-height: 100vh;
+    background-color: lightgray;
+}
+.expiredBloodWrapper{
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.expiredBloodWrapper .card{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+.expiredBloodWrapper .card .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+.expiredBloodWrapper .card .middle {
+    display: flex;
+    justify-content: space-around;
+}
+.expiredBloodWrapper .card .middle span{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: brown;
+}
+.expiredBloodWrapper .card .middle span:nth-child(2){
+    background-color: chocolate;
+}
+.expiredBloodWrapper .card .middle span:nth-child(3){
+    background-color: cornflowerblue;
+}
+.expiredBloodWrapper .card .bottom p{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+}
+.expiredBloodWrapper .card .bottom span{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
